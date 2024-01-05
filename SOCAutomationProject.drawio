@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T07:46:44.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="C30UB9weCvNSGYeghcK1" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T07:48:28.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="X3QfTsZhfVHoU_H20rtu" version="22.1.16" type="github">
   <diagram name="Page-1" id="ChK1W9BBv4qw7w4W10nk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,6 +102,14 @@
         </mxCell>
         <mxCell id="oaZz4HmqSXYziOOv6S-j-18" value="1. Send Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oaZz4HmqSXYziOOv6S-j-17" vertex="1" connectable="0">
           <mxGeometry x="0.1857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeColor=#FF0000;" edge="1" parent="1" source="oaZz4HmqSXYziOOv6S-j-8" target="oaZz4HmqSXYziOOv6S-j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-25" value="8. Perform Responsive Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nG7Onz6YNzY-FJsHj9oM-24">
+          <mxGeometry x="-0.0368" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
