@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" modified="2024-01-05T07:25:39.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aCEVK-BIfrKbEo1LPumK" version="22.1.16" type="github">
+  <diagram name="Page-1" id="ChK1W9BBv4qw7w4W10nk">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-2" value="Windows 10 Client Wazuh Agent&lt;br&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="oaZz4HmqSXYziOOv6S-j-4" target="oaZz4HmqSXYziOOv6S-j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-4" value="Router" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="370" y="380" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-5" value="Suffle" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-6" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="163" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-7" value="TheHive&lt;br&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="163" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-8" value="Wazuh Manager" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="150" y="163" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-10" value="SOC Analyst" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeColor=#808080;strokeWidth=2;" edge="1" parent="1" source="oaZz4HmqSXYziOOv6S-j-2" target="oaZz4HmqSXYziOOv6S-j-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="540" />
+              <mxPoint x="395" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaZz4HmqSXYziOOv6S-j-18" value="Send Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oaZz4HmqSXYziOOv6S-j-17">
+          <mxGeometry x="0.1857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
