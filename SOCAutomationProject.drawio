@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T07:48:28.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="X3QfTsZhfVHoU_H20rtu" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T07:56:06.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DTUe3Av0pXczGYlks3WC" version="22.1.16" type="github">
   <diagram name="Page-1" id="ChK1W9BBv4qw7w4W10nk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,6 +112,41 @@
           <mxGeometry x="-0.0368" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nG7Onz6YNzY-FJsHj9oM-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-26" value="Windows 10&lt;br&gt;Send Events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="823" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nG7Onz6YNzY-FJsHj9oM-31" target="nG7Onz6YNzY-FJsHj9oM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-31" value="Wazuh Manager&lt;br&gt;Trigger alerts &amp;amp; Perform respons actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="823" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nG7Onz6YNzY-FJsHj9oM-32" target="nG7Onz6YNzY-FJsHj9oM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nG7Onz6YNzY-FJsHj9oM-32" target="nG7Onz6YNzY-FJsHj9oM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nG7Onz6YNzY-FJsHj9oM-32" target="nG7Onz6YNzY-FJsHj9oM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-32" value="Suffle&lt;br&gt;Receive Wazuh Alerts &amp;amp; Send responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="823" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-34" value="TheHive&lt;br&gt;Create alert in case management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="943" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-36" value="OSINT&lt;br&gt;Enrich IOCs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="703" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-38" value="Email&lt;br&gt;send email &amp;amp; responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="985" y="823" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
