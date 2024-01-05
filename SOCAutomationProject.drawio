@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T07:29:16.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dFqef3wylXXXEK0vyU1t" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T07:29:50.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zPYBJ6sG4sd8Ze9cEl5P" version="22.1.16" type="github">
   <diagram name="Page-1" id="ChK1W9BBv4qw7w4W10nk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="oaZz4HmqSXYziOOv6S-j-7" value="TheHive&lt;br&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" parent="1" vertex="1">
           <mxGeometry x="680" y="194.5" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nG7Onz6YNzY-FJsHj9oM-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;strokeWidth=2;strokeColor=#716f6f;" edge="1" parent="1" source="oaZz4HmqSXYziOOv6S-j-8" target="oaZz4HmqSXYziOOv6S-j-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oaZz4HmqSXYziOOv6S-j-8" value="Wazuh Manager" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" parent="1" vertex="1">
           <mxGeometry x="80" y="194.5" width="50" height="31.5" as="geometry" />
